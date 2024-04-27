@@ -5,7 +5,6 @@ from datetime import datetime
 from fpdf import FPDF
 
 
-
 class StatQuery:
     dataFrame = None
 
@@ -76,8 +75,6 @@ class Generate_PDF:
         file_name = (f'BD_results_{Generate_PDF.dt_string}.pdf')
         folder = 'c:/Users/joshc/OneDrive/Desktop/Database_Results'
         shutil.copy(file_name, folder)
-
-
 
 
 def display_menu():
